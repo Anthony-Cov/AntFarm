@@ -6,7 +6,7 @@
 <P align=JUSTIFY>The output is simulated transactions of individual agents and their aggregations in the area of consumer interest, in groups of agents and in the population as a whole, allowing one to make forecasts of consumer behavior under various variants of external factors or to judge the effectiveness of recommendations or management decisions.</P>
 <H3>Content</H3>
 <LI><B>simulation.ipynb </B> - Jupyter notebook with demo example.</LI> 
-<LI><B>data</B> - a folder with an example of real-world data on the ecnvironment for similation.</LI>
+<LI><B>data</B> - a folder with an example of real-world data on the environment for similation.</LI>
 <LI><B>src/simulator.py </B> - python procedures for modelling of a customer behavoiur, creation of population and transactional activity simulating</LI>
 <LI><B>src/environ.py</B> - example of environmental scenario realization
 <H3>Process flow</H3>
