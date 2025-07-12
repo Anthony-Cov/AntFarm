@@ -1,0 +1,20 @@
+1. Consumer behavior over time
+The model demonstrates stable consumption dynamics. Agents strive to cover the deficit in important categories within the available budget. The distribution of expenses shows patterns:
+• regular spending on basic categories (e.g. food, health);
+• growth of savings after receiving a salary (once every 15 days) and a subsequent surge in spending;
+• transition from purchases "out of need" to stable patterns (frequency of spending in key categories).
+The graph of wealth changes shows a sawtooth structure - alternation of savings and spending of capital. This indicates saving and accumulation in periods between income receipts.
+2. Purchase strategy
+Thanks to the use of linear programming, the model makes purchases rationally: at each point in time, up to five of the most relevant categories are selected according to the integral criterion (taking into account deficit, importance and predictability):
+• categories with high priority and rapid depletion of stocks are purchased first;
+• less important categories remain unfunded under a limited budget;
+• purchases are scaled taking into account prices on the current date and logistical constraints.
+If it is impossible to find an optimal solution — for example, with a very low budget — the agent makes a fallback purchase for the most important category, using up to 10% of the remaining funds.
+3. Social influence
+If a graph of connections between agents is specified, the model demonstrates the effect of priority adaptation: importance weights are recalculated taking into account the average behavior of neighbors (once a week). This leads to a convergence of agent preferences in a group and can form quasi-markets or local trends in consumption.
+4. Geography and logistics
+The model provides the ability to specify agent coordinates, which allows taking into account spatial constraints. In the experimental implementation, they are used as a potential basis for calculating logistical costs, which is important for further development of the model towards regional analysis or transport infrastructure modeling.
+5. General patterns
+• Categories with high predictability (for example, utilities or mandatory expenses) are stably financed, even with a limited budget.
+• The importance function allows avoiding excessive spending on categories with low importance.
+• Introducing restrictions on the number of simultaneously financed categories (no more than 5) leads to more realistic consumer choice, avoiding budget dispersion.
