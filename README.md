@@ -12,4 +12,5 @@
 <H3>Process flow</H3>
 <IMG src='schem.png'>
 <H3>Desk-top integration</H3>
-Under construction...
+<B>AF02.py</B> - graphical environment for experiments with the Farm. Organised with <A href=https://github.com/spyoungtech/FreeSimpleGUI> FreeSimpleGui </A>
+<IMG src='screen.jpg' align='center'>
