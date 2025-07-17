@@ -1,5 +1,5 @@
 <IMG src='Ant.png' align='right'>
-<H2>Agent-based consumer population model for research tasks, <br>forecasting and working out scenarios</H2>
+<H2>Agent-based consumer population model for research tasks, forecasting and working out scenarios</H2>
 <P align=JUSTIFY>The model is intended to study the influence of external circumstances, advertising recommendations and management decisions on the consumer behavior of agents individually, various social groups and the population as a whole, as well as for training and testing recommender systems.</P>
 <P align=JUSTIFY>The development includes a consumer model with customizable individual characteristics, a model of the external environment that allows for setting scenarios and includes recommendations from the system under study, a set of examples of creating a population and implementing scenario modeling.</P>
 <P align=JUSTIFY>The input is real world data or a given scenario of crisis events or management impacts;</P>
